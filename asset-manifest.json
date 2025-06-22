@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Watch_Tower/static/css/main.36237300.css",
+    "main.js": "/Watch_Tower/static/js/main.cbcdc967.js",
+    "static/media/wave.svg": "/Watch_Tower/static/media/wave.5002a8c0fe2c7c5defc6.svg",
+    "index.html": "/Watch_Tower/index.html",
+    "main.36237300.css.map": "/Watch_Tower/static/css/main.36237300.css.map",
+    "main.cbcdc967.js.map": "/Watch_Tower/static/js/main.cbcdc967.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36237300.css",
+    "static/js/main.cbcdc967.js"
+  ]
+}
