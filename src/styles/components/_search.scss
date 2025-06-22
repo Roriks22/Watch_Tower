@@ -1,0 +1,44 @@
+.search-term {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+  background: $black1;
+  width: 255%;
+
+  @media screen and (max-width: 1150px) {
+    width: 100%;
+  }
+
+  input {
+    border: 1px solid $color1;
+    padding: 6px;
+    border-radius: 10px;
+    background: $black2;
+    font-weight: 600;
+    color: $color1;
+  }
+  ::placeholder {
+    color: $color1;
+  }
+  button {
+    color: $black1;
+    background: $color1;
+    margin-left: 20px;
+    border: 1px solid $color1;
+    border-radius: 10px;
+    font-weight: 800;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+      color: $color1;
+      background: $black1;
+      transition: 1s;
+    }
+
+    i.fa-solid.fa-arrows-rotate {
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  }
+}
