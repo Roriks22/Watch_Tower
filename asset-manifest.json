@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/token-tracker/static/css/main.8a971e04.css",
-    "main.js": "/token-tracker/static/js/main.7c69762e.js",
+    "main.js": "/token-tracker/static/js/main.be2c595b.js",
     "static/media/logo.png": "/token-tracker/static/media/logo.98d41517c24e28874cb4.png",
     "static/media/wave.svg": "/token-tracker/static/media/wave.5002a8c0fe2c7c5defc6.svg",
     "index.html": "/token-tracker/index.html",
     "static/media/chart-icon.svg": "/token-tracker/static/media/chart-icon.a712c7d225b00780c35153377085a0d9.svg",
+    "static/media/arrow-icon.svg": "/token-tracker/static/media/arrow-icon.3bf39a09d9b8623cfb905b6955662d84.svg",
     "static/media/info-icon.svg": "/token-tracker/static/media/info-icon.c434c9fa23449a3ec82022cd685c4ada.svg",
     "static/media/star-full.svg": "/token-tracker/static/media/star-full.828b4bd110d0912be5b3ae4943f41ecc.svg",
     "static/media/star-empty.svg": "/token-tracker/static/media/star-empty.4bab635e0ed9e235dfe0e4b211e4f2f7.svg",
     "main.8a971e04.css.map": "/token-tracker/static/css/main.8a971e04.css.map",
-    "main.7c69762e.js.map": "/token-tracker/static/js/main.7c69762e.js.map"
+    "main.be2c595b.js.map": "/token-tracker/static/js/main.be2c595b.js.map"
   },
   "entrypoints": [
     "static/css/main.8a971e04.css",
-    "static/js/main.7c69762e.js"
+    "static/js/main.be2c595b.js"
   ]
 }
