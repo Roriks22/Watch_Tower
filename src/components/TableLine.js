@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import PercentChange from "./PercentChange";
 import StarIcon from "./StarIcon";
 import CoinChart from "./CoinChart";
+import ChartIcon from "../assets/chart-icon.svg";
+import InfoIcon from "../assets/info-icon.svg";
 
 const TableLine = ({ coin, index }) => {
   const [showChart, setShowChart] = useState(false);
@@ -37,7 +39,7 @@ const TableLine = ({ coin, index }) => {
             onMouseEnter={() => setShowChart(true)}
             onMouseLeave={() => setShowChart(false)}
           >
-            <img src="./assets/chart-icon.svg" alt="chart-icon" />
+            <img src={ChartIcon} alt="chart-icon" />
             <div className="chart-container" id={coin.name}>
               {showChart && <CoinChart coinId={coin.id} coinName={coin.name} />}
             </div>
@@ -45,13 +47,13 @@ const TableLine = ({ coin, index }) => {
           <h4>{coin.name}</h4>
           <span>- {coin.symbol.toUpperCase()}</span>
           <a
-            target="-blank"
+            target="(_blank)"
             href={
               "https://www.coingecko.com/fr/pi%C3%A8ces/" +
               coin.id.toLowerCase()
             }
           >
-            <img src="./assets/info-icon.svg" alt="info-icon" />
+            <img src={InfoIcon} alt="info-icon" />
           </a>
         </div>
       </div>

@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import PercentChange from "./PercentChange";
 import TableFilters from "./TableFilters";
+import Logo from "../assets/logo.png";
 
 const Headerinfos = () => {
   const [headerData, setHeaderData] = useState([]);
@@ -16,7 +17,7 @@ const Headerinfos = () => {
       <ul className="title">
         <li>
           <h1>
-            <img src="./assets/logo.png" alt="logo" /> Watch Tower
+            <img src={Logo} alt="logo" /> Watch Tower
           </h1>
         </li>
         <li>
