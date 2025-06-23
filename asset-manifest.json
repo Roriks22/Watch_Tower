@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/Watch_Tower/static/css/main.36237300.css",
-    "main.js": "/Watch_Tower/static/js/main.cbcdc967.js",
-    "static/media/wave.svg": "/Watch_Tower/static/media/wave.5002a8c0fe2c7c5defc6.svg",
-    "index.html": "/Watch_Tower/index.html",
-    "main.36237300.css.map": "/Watch_Tower/static/css/main.36237300.css.map",
-    "main.cbcdc967.js.map": "/Watch_Tower/static/js/main.cbcdc967.js.map"
+    "main.css": "/token-tracker/static/css/main.8a971e04.css",
+    "main.js": "/token-tracker/static/js/main.7c69762e.js",
+    "static/media/logo.png": "/token-tracker/static/media/logo.98d41517c24e28874cb4.png",
+    "static/media/wave.svg": "/token-tracker/static/media/wave.5002a8c0fe2c7c5defc6.svg",
+    "index.html": "/token-tracker/index.html",
+    "static/media/chart-icon.svg": "/token-tracker/static/media/chart-icon.a712c7d225b00780c35153377085a0d9.svg",
+    "static/media/info-icon.svg": "/token-tracker/static/media/info-icon.c434c9fa23449a3ec82022cd685c4ada.svg",
+    "static/media/star-full.svg": "/token-tracker/static/media/star-full.828b4bd110d0912be5b3ae4943f41ecc.svg",
+    "static/media/star-empty.svg": "/token-tracker/static/media/star-empty.4bab635e0ed9e235dfe0e4b211e4f2f7.svg",
+    "main.8a971e04.css.map": "/token-tracker/static/css/main.8a971e04.css.map",
+    "main.7c69762e.js.map": "/token-tracker/static/js/main.7c69762e.js.map"
   },
   "entrypoints": [
-    "static/css/main.36237300.css",
-    "static/js/main.cbcdc967.js"
+    "static/css/main.8a971e04.css",
+    "static/js/main.7c69762e.js"
   ]
 }
